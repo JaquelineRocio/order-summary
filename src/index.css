@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+}
+:root {
+  /* Primary Colors */
+  --color-primary-pale-blue: hsl(225, 100%, 94%);
+  --color-primary-bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral Colors */
+  --color-neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --color-neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --color-neutral-dark-blue: hsl(223, 47%, 23%);
+}
