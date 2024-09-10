@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 7% auto;
+  margin: 5vh auto;
+  background-color: var(--color-neutral-very-pale-blue);
 }
 span {
   width: 50%;
@@ -27,6 +28,12 @@ img {
 }
 a {
   color: var(--color-primary-bright-blue);
-  font-weight: 800;
+  font-weight: 900;
   font-size: 0.8em;
+  transition: filter 0.3s ease;
+}
+a:hover {
+  filter: brightness(2);
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -12,11 +12,22 @@
     border-radius: 8px;
     font-weight: 600;
   }
+  button:hover {
+    cursor: pointer;
+  }
 }
 .order__button-payment {
   background-color: var(--color-primary-bright-blue);
   color: var(--color-neutral-very-pale-blue);
 }
+.order__button-payment:hover {
+  filter: brightness(2);
+}
 .order__button-cancel {
   color: var(--color-neutral-desaturated-blue);
+  background: none;
+}
+.order__button-cancel:hover {
+  color: var(--color-neutral-dark-blue);
+  background: none;
 }
