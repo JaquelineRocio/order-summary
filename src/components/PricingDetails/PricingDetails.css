@@ -1,0 +1,32 @@
+.PricingDetails__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 7% auto;
+}
+span {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+  h4 {
+    margin: 0;
+    color: var(--color-neutral-dark-blue);
+  }
+  p {
+    margin: 0;
+    color: var(--color-neutral-desaturated-blue);
+    font-weight: 600;
+  }
+}
+img {
+  width: 15%;
+  height: auto;
+}
+a {
+  color: var(--color-primary-bright-blue);
+  font-weight: 800;
+  font-size: 0.8em;
+}

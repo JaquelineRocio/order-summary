@@ -1,4 +1,4 @@
-import "./HeaderImage.css"; // CSS Modules for scoped styling
+import "./HeaderImage.css";
 import heroImage from "../../assets/images/illustration-hero.svg";
 const HeaderImage = () => {
   return (

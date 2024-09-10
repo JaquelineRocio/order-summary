@@ -3,13 +3,13 @@ import "./PricingDetails.css";
 
 const PricingDetails = () => {
   return (
-    <div>
+    <div className="PricingDetails__container">
       <img src={iconMusic} alt="Music Icon" width="24px" height="24px" />
 
-      <div>
+      <span>
         <h4>Annual Plan</h4>
         <p>$59.99/year</p>
-      </div>
+      </span>
       <a href="">Change</a>
     </div>
   );
